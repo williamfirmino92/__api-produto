@@ -6,9 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
 
-import com.produtos.api.model.DadosCadastroProduto;
-import com.produtos.api.model.Produto;
-import com.produtos.api.model.ProdutoRepository;
+import com.produtos.api.dto.DadosCadastroProduto;
+import com.produtos.api.entity.Produto;
+import com.produtos.api.repository.ProdutoRepository;
 
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;

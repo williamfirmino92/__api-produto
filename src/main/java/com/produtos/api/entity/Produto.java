@@ -1,4 +1,6 @@
-package com.produtos.api.model;
+package com.produtos.api.entity;
+
+import com.produtos.api.dto.DadosCadastroProduto;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.*;
